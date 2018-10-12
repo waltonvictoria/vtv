@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: gray;
+}
+
+#root{
+    width: 40%;
+    height: 80%;
+    background: gold;
+    position: fixed;
+    top: calc(50vh - 40%);
+    left: calc(50vw - 20%);
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 5%;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 60%;
+    margin-left: 20%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#patente{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+}
+#bt{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+#res{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 20px;    
+}
